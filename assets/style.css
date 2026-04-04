@@ -423,10 +423,6 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 
-/* =========================
-   HAMBURGER MENU MOBILE
-   ========================= */
-
 .hamburger {
   display: none;
   flex-direction: column;
@@ -500,8 +496,8 @@ footer {
   }
 }
 
-/* Responsive */
-@media (max-width: 992px) {
+/* Responsive tablet */
+@media (max-width: 834px) {
   /* SPACING */
   .nav-container {
     padding: 12px 20px;
@@ -524,13 +520,13 @@ footer {
   }
 
   .hero img {
-    width: 180px;
-    height: 180px;
+    width: 400px;
+    height: 400px;
   }
 
   /* TYPOGRAPHY + SPACING */
   .hero p {
-    font-size: 1.2rem;
+    font-size: 1.9rem;
     padding: 10px 18px;
   }
 
@@ -565,6 +561,7 @@ footer {
   }
 }
 
+/* Responsive Hp */
 @media (max-width: 576px) {
   .hamburger {
     display: flex;
@@ -652,7 +649,7 @@ footer {
 
   /* TYPOGRAPHY + SPACING */
   .hero p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 8px 14px;
     line-height: 1.5;
   }
@@ -677,7 +674,7 @@ footer {
 
   /* TYPOGRAPHY */
   #tentang article {
-    font-size: 0.95rem;
+    font-size: 0.90rem;
   }
 
   /* GRID */
